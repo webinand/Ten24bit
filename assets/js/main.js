@@ -267,7 +267,6 @@
   const services = document.querySelector(".btn-services");
   const started = document.querySelector(".btn-get-started");
   services.addEventListener("mouseover", () => {
-    console.log("ferd");
+    started.style.backgroundcolor = "red";
   });
-  m;
 })();
