@@ -170,13 +170,13 @@ h6 {
 }
 
 #hero .btn-get-started {
-  background: #03c4eb;
-  border: 2px solid #03c4eb;
+  background: none;
+  border: 2px solid #ffffff;
   color: #fff;
 }
 
 #hero .btn-get-started:hover {
-  background: none;
+  background: #03c4eb;
   border: 2px solid #fff;
   color: #fff;
 }
@@ -298,7 +298,7 @@ h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background: none;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -375,6 +375,7 @@ h6 {
 }
 
 .navbar-mobile {
+  color: #fff;
   position: fixed;
   overflow: hidden;
   top: 0;
@@ -393,6 +394,7 @@ h6 {
 }
 
 .navbar-mobile ul {
+  color: #fff;
   display: block;
   position: absolute;
   top: 55px;
@@ -400,7 +402,7 @@ h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: none;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -409,7 +411,7 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #333333;
+  color: #fff;
 }
 
 .navbar-mobile a:hover,
