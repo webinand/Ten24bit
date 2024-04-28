@@ -264,9 +264,9 @@
   window.addEventListener("load", () => {
     aos_init();
   });
-  const services = document.querySelector(".btn-services");
-  const started = document.querySelector(".btn-get-started");
-  services.addEventListener("mouseover", () => {
-    started.style.backgroundcolor = "red";
-  });
+  // const services = document.querySelector(".btn-services");
+  // const started = document.querySelector(".btn-get-started");
+  // services.addEventListener("mouseover", () => {
+  //   started.style.backgroundcolor = "red";
+  // });
 })();
